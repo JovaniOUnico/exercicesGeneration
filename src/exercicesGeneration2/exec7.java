@@ -36,7 +36,7 @@ public class exec7 {
 				res = "%.2f * %.2f = %.2f";
 				break;
 			case 4:
-				if (n2 < 0) {
+				if (n2 == 0) {
 					res = "Operação Inválida";
 				} else {					
 					calc = n1 / n2;
